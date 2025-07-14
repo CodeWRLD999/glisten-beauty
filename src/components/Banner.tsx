@@ -1,5 +1,5 @@
 import React from 'react';
-import "@/components/banner.css"; // Assuming you have a CSS file for styling the banner
+import "@/components/Banner.css"; // Assuming you have a CSS file for styling the banner
 
 const Banner = () => {
   return (
