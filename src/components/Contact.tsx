@@ -34,12 +34,13 @@ const Contact = () => {
                 <p>Large purpose-built home salon with professional equipment and comfortable environment</p>
               </div>
               
+              <a href="https://that-time.co.uk/glisten-hair-aesthetics" target="_blank" rel="noopener noreferrer">
               <Button 
                 className="w-full bg-glisten-gold hover:bg-glisten-yellow text-glisten-olive font-semibold py-3"
                 onClick={() => window.open('https://that-time.co.uk/glisten-hair-aesthetics', '_blank')}
               >
                 Book Online Now
-              </Button>
+              </Button> </a>
             </CardContent>
           </Card>
           

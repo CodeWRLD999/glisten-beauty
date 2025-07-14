@@ -51,9 +51,10 @@ const Navigation = () => {
           </div>
           {/* Book Now Button (Desktop) */}
           <div className="hidden md:block">
+            <a href="https://that-time.co.uk/glisten-hair-aesthetics" target="_blank" rel="noopener noreferrer">
             <Button className="bg-glisten-gold hover:bg-glisten-yellow text-glisten-olive font-semibold">
               Book Now
-            </Button>
+            </Button></a>
           </div>
         </div>
         {/* Mobile Menu */}

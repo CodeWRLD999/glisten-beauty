@@ -17,9 +17,10 @@ const Hero = () => {
             in our purpose-built home salon.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="https://that-time.co.uk/glisten-hair-aesthetics" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-glisten-gold hover:bg-glisten-yellow text-glisten-olive font-semibold px-8 py-3">
               Book Appointment
-            </Button>
+            </Button></a>
             <Button variant="outline" size="lg" className="border-glisten-olive text-glisten-olive hover:bg-glisten-olive hover:text-glisten-white px-8 py-3">
               View Services
             </Button>
