@@ -13,7 +13,7 @@ const Hero = () => {
           </h1>
           <p className="text-xl text-glisten-olive/80 mb-8 leading-relaxed">
             Welcome to Glisten Hair & Aesthetics - your premier destination for hairdressing, 
-            aesthetics treatments, and Japanese Head Spa in Poole BH15. Over 15 years of expertise 
+            aesthetics treatments, hair extensions and Japanese Head Spa in Poole BH15. Over 15 years of expertise 
             in our purpose-built home salon.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

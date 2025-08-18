@@ -53,7 +53,7 @@ const Navigation = () => {
           <div className="hidden md:block">
             <a href="https://that-time.co.uk/glisten-hair-aesthetics" target="_blank" rel="noopener noreferrer">
             <Button className="bg-glisten-gold hover:bg-glisten-yellow text-glisten-olive font-semibold">
-              Book Now
+              Book Now - Klarna/Clearpay Available
             </Button></a>
           </div>
         </div>
@@ -101,7 +101,7 @@ const Navigation = () => {
               className="bg-glisten-gold hover:bg-glisten-yellow text-glisten-olive font-semibold w-full"
               onClick={() => setIsOpen(false)}
             >
-              Book Now
+              Book Now - Klarna/Clearpay Available
             </Button>
           </div>
         </div>

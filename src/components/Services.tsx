@@ -23,12 +23,12 @@ const Services = () => {
     {
       title: 'Hair Extensions',
       description: 'Fitting and maintenance of various hair extension types',
-      features: ['Tape extensions', 'Nano extensions', 'Weaves']
+      features: ['Tape extensions', 'Nano extensions', 'Weaves', 'Mesh Integration']
     },
     {
       title: 'Aesthetics Treatments',
       description: 'Advanced aesthetic treatments for facial and skin enhancement',
-      features: ['Lip filler', 'Facial fillers', 'Anti-wrinkle treatment', 'Lemonbottle fat dissolving', 'Vitamin B12 injections']
+      features: ['Lip filler', 'Facial fillers', 'Anti-wrinkle treatment', 'Lemonbottle fat dissolving', 'Vitamin B12 injections', 'Skin Boosters', 'Dermaplaning', 'Microneedling', 'Skin Tag Removal']
     }
   ];
 
