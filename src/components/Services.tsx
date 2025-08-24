@@ -1,5 +1,6 @@
 import React from 'react';
 import ServiceCard from './ServiceCard';
+import { Helmet } from 'react-helmet'; // Use react-helmet for Vite/React
 
 const Services = () => {
   const services = [
@@ -33,24 +34,43 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-glisten-blue/20">
-      <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-glisten-olive mb-4">
-            Aesthetics Treatments in Poole BH15
-          </h2>
-          <p className="text-xl text-glisten-olive/70 max-w-3xl mx-auto">
-            Discover our comprehensive range of professional hair and beauty services, 
-            delivered with over 15 years of expertise in our purpose-built salon.
-          </p>
+    <>
+      <Helmet>
+        <title>Services - Glisten Hair & Aesthetics, Poole BH15</title>
+        <meta
+          name="description"
+          content="Explore services at Glisten Hair & Aesthetics in Poole BH15. Enjoy ladies hairdressing, men’s hair replacement, aesthetics, hair extensions, and Japanese Head Spa with 15+ years of expertise. Book now!"
+        />
+        <meta
+          name="keywords"
+          content="services hairdresser near me, men’s hair replacement near me, hair stylist Poole, aesthetics Poole, hair extensions Poole, Japanese Head Spa Poole, Poole BH15"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+          rel="canonical"
+          href="https://hair-replacement-landing-op7bgkptj-glisten-aesthetics.vercel.app/services"
+        /> {/* Replace with your live URL */}
+      </Helmet>
+      <section id="services" className="py-20 bg-glisten-blue/20">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-glisten-olive mb-4">
+              Aesthetics Treatments in Poole BH15
+            </h2>
+            <p className="text-xl text-glisten-olive/70 max-w-3xl mx-auto">
+              Discover our comprehensive range of professional hair and beauty services, 
+              delivered with over 15 years of expertise in our purpose-built salon.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {services.map((service, index) => (
+              <ServiceCard key={index} {...service} />
+            ))}
+          </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => (
-            <ServiceCard key={index} {...service} />
-          ))}
-        </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 
