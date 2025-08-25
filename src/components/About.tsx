@@ -11,6 +11,7 @@ const About = () => {
           name="description"
           content="Meet the expert team at Glisten Hair & Aesthetics in Poole BH15. Over 15 years of hair and aesthetics experience, specializing in men’s hair replacement and Japanese Head Spa. Book now!"
         />
+        <meta name="google-site-verification" content="39wBZuMClnPtkpoh2ODqRlaCasJIzf3Qp4ixyW6gDq8" />
         <meta
           name="keywords"
           content="about hair stylist Poole, aesthetics Poole, men’s hair replacement near me, Japanese Head Spa Poole, Poole BH15"
