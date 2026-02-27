@@ -1,18 +1,20 @@
-#background{
-    background-image: url('/assets/indexbanner.gif');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+/* hero.css */
+
+/* Wrapper can stay empty (Tailwind is handling spacing) */
+#background {
+  position: relative;
 }
 
-#background2{
-    background-color: #e6e6e6cb;
-    border: 2px solid #ff99cc; /* glisten-gold for primary border */
-    border-radius: 10px;
-    box-shadow: 
-        0 4px 6px rgba(0, 0, 0, 0.3), /* Outer shadow for depth */
-        inset 0 2px 4px rgba(189, 0, 98, 0.5), /* glisten-yellow inner glow */
-        inset 0 -2px 4px rgba(150, 143, 104, 0.3); /* glisten-olive subtle bottom shadow */
-    position: relative;
-    overflow: hidden;
+/* Animated background layer */
+#background2 {
+  background-image: url('/assets/indexbanner.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* Push the image UP so the top logo/text is not visible */
+  background-position: center 65%;
+
+  transform: scale(1.08);
+  opacity: 0.85;
+  filter: saturate(1.05) contrast(1.05);
 }

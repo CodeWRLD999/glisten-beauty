@@ -1,6 +1,6 @@
 import React from 'react';
-import { Helmet } from 'react-helmet'; // Use react-helmet for Vite/React
-import "@/components/Banner.css"; // Assuming you have a CSS file for styling the banner
+import { Helmet } from 'react-helmet';
+import "@/components/Banner.css";
 
 const Banner = () => {
   return (
@@ -20,13 +20,36 @@ const Banner = () => {
         <link
           rel="canonical"
           href="https://hair-replacement-landing-op7bgkptj-glisten-aesthetics.vercel.app"
-        /> {/* Replace with your live URL */}
+        />
       </Helmet>
-      <div className="bg-gradient-to-r from-glisten-gold to-glisten-yellow py-5 px-1 shadow-md" id="backing">
-        <div className="container mx-auto flex items-center justify-center">
+
+      {/* Top Banner */}
+      <div
+        id="backing"
+        className="relative py-3 px-2 border-b border-white/40 bg-white/25 backdrop-blur shadow-sm"
+      >
+        {/* subtle blush/silver accent */}
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-zinc-100/30 via-white/10 to-rose-200/30" />
+
+        <div className="relative container mx-auto flex items-center justify-center">
           <div className="text-center">
-            <div className="w-32 h-16 bg-glisten-white rounded-lg flex items-center justify-center shadow-sm" id="backing2">
+            {/* Logo pill */}
+            <div
+              id="backing2"
+              className="inline-flex items-center justify-center rounded-2xl border border-white/40 bg-white/35 backdrop-blur px-4 py-2 shadow-sm opacity-0"
+            >
+              <img
+                src="/assets/placeholderlogo.png"
+                alt="Glisten Hair & Aesthetics"
+                className="h-10 w-auto md:h-11 fill-transparent opacity-0"
+                loading="eager"
+              />
             </div>
+
+            {/* Optional microcopy (remove if you want it super minimal) */}
+            <p className="sr-only">
+              Poole BH15 • Hair • Aesthetics • Men’s Hair Replacement
+            </p>
           </div>
         </div>
       </div>
