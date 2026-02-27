@@ -55,7 +55,8 @@ const Hero = () => {
               </div>
 
               {/* Main Heading */}
-              <h1 className="mt-8 text-4xl md:text-6xl font-semibold tracking-tight text-glisten-olive leading-tight">
+              <h1 className="mt-8 text-4xl md:text-6xl font-semibold tracking-tight leading-tight 
+text-[#1c1c1e]">
                 Hair & Aesthetics
                 <span className="block text-rose-500/90">
                   Refined. Personal. Professional.
